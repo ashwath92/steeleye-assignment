@@ -23,12 +23,11 @@ Issr
 Store the csv from step 4) in an AWS S3 bucket
 
 ### Config file
-The config file contains a number of config parameters -- filenames and AWS-related fields. __The AWS-fields
-HAVE TO BE CHANGED WHEN ANOTHER PERSON RUNS THIS CODE__.
+The config file contains a number of config parameters -- filenames and AWS-related fields. I have included dummy AWS fields. __The AWS key and other fields have to be added by the person running the code__.
 
 ### Test cases
 The test cases are present in the steeleye_assignment/test/ directory. This is done using pytest 
-__Run the test cases from the base directory using py.test.__ 
+__Run the test cases from the base directory using py.test.__ You can also run py.test from the test/ directory.
 
 ### Log file
 A log file is generated and subsequently overwritten each time the program runs. This is present in python/assignment/logs.
