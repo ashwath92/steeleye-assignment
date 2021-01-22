@@ -81,8 +81,8 @@ def get_zip_file_name(base_xml_file):
     base_xml_file(string): the ESMA Register xml file url. The xml contains a
                            no. of files along with download links and metadata
     RETURNS:
-    zip_filename (string): the name of the zip file which has to be downloaded
-                           If no zip file url is present, '' is returned
+    zip_file_link (string): the url of the zip file which has to be downloaded
+                            If no zip file url is present, '' is returned
 
     """
     main_xml_page = request_url(base_xml_file)
